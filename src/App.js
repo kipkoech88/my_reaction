@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import { Article,Features, Footer,Header } from './components';
-import { Navbar,Brand,Blog,CTA,Gallery } from './containers';
+import { Navbar,Brand,Blog,Gallery } from './containers';
 
 function App() {
   return (
