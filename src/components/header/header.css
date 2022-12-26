@@ -1,0 +1,12 @@
+.header-paragraph{
+    max-width: 500px;
+    margin: 2rem 2rem;
+} 
+.header-paragraph button{
+    background-color: orangered;
+    border-radius: 5px; 
+    border: none; 
+    height: 30px; 
+    width: 90px;
+    cursor: pointer;
+}

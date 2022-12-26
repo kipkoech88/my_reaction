@@ -1,0 +1,41 @@
+.article-header{
+    text-align: center;
+    text-decoration: underline; 
+    color: rgb(228, 219, 211);
+} 
+.images-container{
+    margin: 2rem 2rem;
+    display: flex;
+    overflow: auto;
+    justify-content: space-around;
+    gap: 5px;
+} 
+.gallery-image{
+    border: 2px solid black; 
+    height: 200px;
+    width: 350px; 
+    text-align: center;
+}
+@media screen and (max-width:550px) {
+    .gallery-image{
+        width: 400px;
+        margin-left: 55px;
+        
+    }
+    .images-container{
+        display: inline;
+    }
+}
+@media screen and (max-width:750px) {
+    .images-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .gallery-image{
+        width: 600px;
+    }
+    h2{
+        font-size: small;
+    }
+}
